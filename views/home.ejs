@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title> </title>
+        <script src="https://kit.fontawesome.com/63689fa912.js" crossorigin="anonymous"></script>
+        <!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/home.css">
+    </head>
+    <body>
+        <h1>TODO App</h1>
+        
+            
+
+   <div class="description-box">
+      
+      <form>
+      <label for="description">DESCRIPTION</label><br>
+    <input type="text" class="description" name="description" placeholder="What do you need to add ?" required/>
+
+</form>
+   </div>
+
+   <div class="description-box">
+    <div class="timespan">
+    <label for="description">CATEGORY</label><br>
+
+<select name="category" class="description">
+    <option value="">Choose a category</option>
+    <option value="PersonalWork">Personal Work</option>
+    <option value="ProfessionalWork">ProfessionalWork</option>
+    <option value="Cleaning">Cleaning</option>
+    <option value="Shopping">Shopping</option>
+    <option value="Other">Other</option>
+</select>
+</div>
+
+<!--add two diff classes separating with 1 single space-->
+<div class="timespan date timepspan-border">
+
+    <label for="description">DUE DATE</label><br>
+    <input type="date" id="date" class="description">
+</div>
+
+ </div>
+
+ <div class="add-delete-description-box description-box">
+    <button class="btn" onclick="alert('Task added')"><i class="fas fa-plus"></i> &nbsp; ADD A TASK</button>
+    <button class="btn" onclick="alert('Task deleted')"><i class="fas fa-trash" aria-hidden="true"></i> DELETE TASKS</button>
+ </div>
+
+
+        <script type="text/javascript" src="/js/home.js"> </script>
+    </body>
+</html>

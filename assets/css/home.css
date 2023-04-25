@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+
+.description-box{
+    margin-left: 30%;
+    margin-right: 30%;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color:rosybrown;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    height:60px;
+}
+
+.description-box:hover{
+    background-color: #F4C2C2;
+}
+.description{
+    border-style:none;
+    outline:none;
+    }
+
+.description:hover{
+        background-color: #F4C2C2 ;
+    }
+
+.timespan{
+    display: inline-block;
+     }
+
+.timepspan-border{
+        border-left-style: solid;
+        border-left-width: thin;
+        height:60px;
+    }
+
+.date{
+        margin-left: 30%;
+     }
+
+.add-delete-description-box{
+    height:120px;
+}   
+
+.btn {
+    margin-top: 5%;
+    margin-left: 10%;
+   
+    background-color: lightcoral; /* background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 20px 20px; /* Some padding */
+    font-size: 20px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 8px;
+    transition: background-color 2s ease-out;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .btn:hover {
+    background-color: RoyalBlue;
+   
+    }
+
+
